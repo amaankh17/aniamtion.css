@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+                "Lucida Sans", Arial, sans-serif;
+        }
+        img{
+            width: 800px;
+            border: 5px solid black;
+            height: 500px;
+        }
+        h1{
+            font-size: 50px;
+            text-decoration: underline;
+        }
+        img:hover{
+            filter: grayscale(1);
+            transition: 2s;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hover To Have A GrayScale Look.</h1>
+    <img src="https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/01/22185942/Bill-Gates.jpg"
+        alt="Bill Gates" />
+</body>
+
+</html>
